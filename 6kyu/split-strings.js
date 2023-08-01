@@ -17,8 +17,8 @@ function solution(str) {
   if (str.length % 2 !== 0) {
     result[result.length - 1] += "_";
   }
-  console.log(result);
 
+  console.log(result);
   return result;
 }
 
