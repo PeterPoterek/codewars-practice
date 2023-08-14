@@ -28,7 +28,7 @@ function array(string) {
     if (i !== 0 && i !== charArr.length - 1) {
       result += charArr[i];
       if (i !== charArr.length - 2) {
-        result += " "; // Add a space between sequences except the last one
+        result += " ";
       }
     }
   }
